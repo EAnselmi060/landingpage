@@ -267,7 +267,7 @@
   .contact-form textarea {
     width: 100%;
     padding: 1rem;
-    background: rgba(30, 41, 59, 0.5);
+    background: rgba(255, 255, 255, 0.692);
     border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     color: var(--text-color);

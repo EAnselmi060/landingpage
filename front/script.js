@@ -83,7 +83,7 @@ const sendMessage = async (message) => {
 
     try {
       const data = message;//{ "joke": "This is a test joke" };
-      const url = "/.netlify/functions/jokes";
+      const url = "/.netlify/functions/comentarios";
 
       const response = await fetch(url, {
         method: "POST",

@@ -3,10 +3,10 @@ import { MongoClient } from "mongodb";
 
 const C_MONGODB_API_KEY = process.env.MONGODB_API_KEY;
 
-const uri = `mongodb+srv://alexgf2703:${C_MONGODB_API_KEY}@cluster0.r4lwh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`; // Reemplaza con tu URI de conexión
+const uri = "mongodb+srv://EAnselmi060:Lxe9jupr62BnJCIq@proydw.vs6az.mongodb.net/?retryWrites=true&w=majority&appName=ProyDW"; // Reemplaza con tu URI de conexión
 const client = new MongoClient(uri);
-const dbName = "website"; // Reemplaza con el nombre de tu base de datos
-const collectionName = "contactos"; // Reemplaza con el nombre de tu colección
+const dbName = "landingdatabase"; // Reemplaza con el nombre de tu base de datos
+const collectionName = "comentarios"; // Reemplaza con el nombre de tu colección
 
 
 export default async (request, context) => {

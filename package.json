@@ -1,24 +1,12 @@
 {
-  "name": "test_serverless",
+  "name": "landingpage",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexgcode/test_serverless.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexgcode/test_serverless/issues"
-  },
-  "homepage": "https://github.com/alexgcode/test_serverless#readme",
-  "description": "",
-  "dependencies": {
-    "mongodb": "^6.12.0",
-    "node-fetch": "^3.3.2"
-  }
+  "license": "ISC"
 }
