@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 const C_MONGODB_API_KEY = process.env.MONGODB_API_KEY;
 
-const uri = 'mongodb+srv://EAnselmi060:Lxe9jupr62BnJCIq@proydw.vs6az.mongodb.net/?retryWrites=true&w=majority&appName=ProyDW'; // Reemplaza con tu URI de conexión
+const uri = process.env.goldenpastelito; // Reemplaza con tu URI de conexión
 const client = new MongoClient(uri);
 const dbName = "landingdatabase"; // Reemplaza con el nombre de tu base de datos
 const collectionName = "comentarios"; // Reemplaza con el nombre de tu colección
