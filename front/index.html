@@ -6,7 +6,9 @@
     <title>Consultoría IT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -28,12 +30,13 @@
 
     <!-- Hero Section -->
   <header id="inicio" class="hero">
-    <div class="hero-overlay"></div>
+    <!--<div class="hero-overlay"></div>-->
     <div class="container">
-      <div class="hero-content" data-aos="fade-up">
+      <div class="hero-content" data-aos="fade-up" style="height: 500px;">
         <h1>Soluciones Tecnológicas para tu Negocio</h1>
-        <p>Transformamos empresas a través de la innovación digital y consultoría tecnológica especializada</p>
-        <a href="#contacto" class="btn btn-primary">
+        <p class="pt-3">Enfocados en transformar empresas, ofrecemos innovación digital y consultoría tecnológica especializada para optimizar tus procesos,
+          mejorar tu productividad y garantizar tu crecimiento sostenible.</p>
+        <a href="#contacto" class="btn btn-primary mt-4">
           Contáctanos
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
@@ -51,28 +54,48 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
           </div>
           <h3>Cloud Computing</h3>
-          <p>Migración y gestión de infraestructura en la nube</p>
+          <p>Migración y gestión de infraestructura en la nube para optimizar el rendimiento, reducir costos y aumentar la escalabilidad de tu negocio. </p>
         </div>
         <div class="service-card" data-aos="fade-up" data-aos-delay="200">
           <div class="service-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
           </div>
           <h3>Gestión de Datos</h3>
-          <p>Análisis y optimización de bases de datos empresariales</p>
+          <p>Análisis, diseño y optimización de bases de datos empresariales para mejorar la eficiencia y el acceso a la información clave.</p>
         </div>
         <div class="service-card" data-aos="fade-up" data-aos-delay="300">
           <div class="service-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
           </div>
           <h3>Ciberseguridad</h3>
-          <p>Protección integral para tus activos digitales</p>
+          <p>Análisis, diseño y optimización de bases de datos empresariales para mejorar la eficiencia y el acceso a la información clave.</p>
         </div>
         <div class="service-card" data-aos="fade-up" data-aos-delay="400">
           <div class="service-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           </div>
           <h3>Consultoría IT</h3>
-          <p>Asesoramiento estratégico en transformación digital</p>
+          <p>Asesoramiento estratégico en transformación digital, ayudando a empresas a identificar oportunidades tecnológicas para optimizar procesos, reducir costos y aumentar la competitividad.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" />
+              <path d="M7 7V5a5 5 0 0 1 10 0v2" />
+            </svg>
+          </div>
+          <h3>Desarrollo de Software a Medida</h3>
+          <p>Diseñamos y desarrollamos aplicaciones personalizadas que se adaptan a las necesidades específicas de tu negocio. </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16v2H4z" />
+              <path d="M9 4v12a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V4" />
+            </svg>
+          </div>
+          <h3>Automatización de Procesos Empresariales</h3>
+          <p>Implementamos herramientas y tecnologías para automatizar tareas repetitivas y optimizar tus procesos empresariales.</p>
         </div>
       </div>
     </div>
@@ -86,34 +109,34 @@
           <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80" alt="Equipo de consultores">
         </div>
         <div class="why-us-content" data-aos="fade-left">
-          <h2>¿Por qué elegirnos?</h2>
+          <h2 class="mb-5">¿Por qué elegirnos?</h2>
           <div class="features">
             <div class="feature">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
               <div>
                 <h3>Experiencia Comprobada</h3>
-                <p>Más de 10 años transformando empresas</p>
+                <p style="text-align: justify;">Con más de 10 años transformando empresas, hemos trabajado con organizaciones de diversos sectores, logrando resultados tangibles en productividad, eficiencia y crecimiento empresarial. </p>
               </div>
             </div>
             <div class="feature">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
               <div>
                 <h3>Equipo Especializado</h3>
-                <p>Profesionales certificados en las últimas tecnologías</p>
+                <p style="text-align: justify;">Contamos con un equipo multidisciplinario compuesto por profesionales certificados en las últimas tecnologías y metodologías.</p>
               </div>
             </div>
             <div class="feature">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
               <div>
                 <h3>Soluciones Personalizadas</h3>
-                <p>Adaptamos nuestros servicios a tus necesidades</p>
+                <p style="text-align: justify;">Nuestro compromiso es diseñar soluciones a la medida de cada cliente. Analizamos a fondo tus necesidades y objetivos para ofrecerte estrategias y herramientas completamente adaptadas a las particularidades de tu negocio.</p>
               </div>
             </div>
             <div class="feature">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
               <div>
                 <h3>Soporte 24/7</h3>
-                <p>Estamos siempre disponibles cuando nos necesites</p>
+                <p style="text-align: justify;">Entendemos que la tecnología no duerme, y por eso estamos disponibles las 24 horas del día, los 7 días de la semana.</p>
               </div>
             </div>
           </div>
@@ -121,6 +144,129 @@
       </div>
     </div>
   </section>
+
+  <!--carrusel-->
+  <section class="testimonials">
+    <div class="container" >
+        <h2 data-aos="fade-down" class="mb-4" style="text-align: center !important;;">La Excelencia en Tecnología</h2>
+        <p class="subtitle" data-aos="fade-up" data-aos-delay="200">
+            Descubre por qué las empresas líderes confían en nuestros servicios
+        </p>
+
+        <div class="swiper testimonials-slider" data-aos="zoom-in" data-aos-delay="400" style="color: black !important;;">
+            <div class="swiper-wrapper">
+                <!-- Testimonio 1 -->
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="client-image-wrapper">
+                            <img src="https://cdn.pixabay.com/photo/2014/04/12/14/59/portrait-322470_1280.jpg" alt="María González" class="client-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="stars-container">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                        <blockquote class="quote-text">
+                            "El servicio proporcionado por el equipo ha sido excepcional. Transformaron completamente nuestra infraestructura IT, mejorando significativamente nuestra eficiencia operativa."
+                        </blockquote>
+                        <div class="client-info">
+                            <h3>María González</h3>
+                            <p>Directora de Operaciones - Tech Solutions S.A.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="client-image-wrapper">
+                            <img src="https://cdn.pixabay.com/photo/2014/04/12/14/59/portrait-322470_1280.jpg" alt="Carlos Rodríguez" class="client-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="stars-container">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                        <blockquote class="quote-text">
+                            "Gracias a su experiencia en ciberseguridad, pudimos proteger nuestros activos digitales de manera efectiva. Su equipo demuestra un profundo conocimiento y profesionalismo."
+                        </blockquote>
+                        <div class="client-info">
+                            <h3>Carlos Rodríguez</h3>
+                            <p>CEO - Innovate Corp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="client-image-wrapper">
+                            <img src="https://cdn.pixabay.com/photo/2014/04/12/14/59/portrait-322470_1280.jpg" alt="Ana Martínez" class="client-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="stars-container">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                        <blockquote class="quote-text">
+                            "La implementación del nuevo sistema de gestión fue impecable. El soporte continuo y la capacidad de respuesta del equipo han superado nuestras expectativas."
+                        </blockquote>
+                        <div class="client-info">
+                            <h3>Ana Martínez</h3>
+                            <p>Gerente de Proyectos - Digital Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 4 -->
+                <div class="swiper-slide testimonial-card">
+                  <div class="testimonial-content">
+                      <div class="client-image-wrapper">
+                          <img src="https://cdn.pixabay.com/photo/2014/04/12/14/59/portrait-322470_1280.jpg" alt="Ana Martínez" class="client-image">
+                          <div class="image-overlay"></div>
+                      </div>
+                      <div class="stars-container">
+                          <div class="stars">
+                              <span class="star">★</span>
+                              <span class="star">★</span>
+                              <span class="star">★</span>
+                              <span class="star">★</span>
+                              <span class="star">★</span>
+                          </div>
+                      </div>
+                      <blockquote class="quote-text">
+                          "La implementación del nuevo sistema de gestión fue impecable. El soporte continuo y la capacidad de respuesta del equipo han superado nuestras expectativas."
+                      </blockquote>
+                      <div class="client-info">
+                          <h3>Alex Filosofo</h3>
+                          <p>Gerente de Proyectos - Digital Solutions</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- Navegación -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
 
   <!-- Contact Section -->
   <section id="contacto" class="contact">
@@ -140,6 +286,27 @@
             <div class="contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
               <p>Calle Principal 123, 28001 Madrid</p>
+            </div>
+            <!-- Agregamos la sección de redes sociales -->
+            <div class="social-media">
+              <h3>Síguenos en Redes Sociales</h3>
+              <div class="social-icons">
+                <a href="#" class="social-icon" data-tooltip="Facebook">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="#" class="social-icon" data-tooltip="Twitter">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                </a>
+                <a href="#" class="social-icon" data-tooltip="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="#" class="social-icon" data-tooltip="Instagram">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                </a>
+                <a href="#" class="social-icon" data-tooltip="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -162,34 +329,177 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2024 TechConsult. Todos los derechos reservados.</p>
+      <p>© 2025 TechConsult. Hecho por Ednoweri Anselmi. Todos los derechos reservados.</p>
     </div>
   </footer>
 
   <div id="loader" style="display: none;">Cargando...</div>
 
+  <!--carrusel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--end carrusel-->
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
 
     <script>
-      window.addEventListener('mouseover', initLandbot, { once: true });
-      window.addEventListener('touchstart', initLandbot, { once: true });
-      var myLandbot;
-      function initLandbot() {
-        if (!myLandbot) {
-          var s = document.createElement('script');
-          s.type = "module"
-          s.async = true;
-          s.addEventListener('load', function() {
-            myLandbot = new Landbot.Popup({
-              configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2759082-4RLIW3ZZV4SUB8I7/index.json',
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');
+            s.type = "module"
+            s.async = true;
+            s.addEventListener('load', function() {
+              myLandbot = new Landbot.Popup({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2750389-RA5EGOSUTV7HK1IS/index.json',
+              });
             });
-          });
-          s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
-          var x = document.getElementsByTagName('script')[0];
-          x.parentNode.insertBefore(s, x);
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
         }
-      }
-      </script>
+    </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    /* Inicializar AOS
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+    */
+
+    // Inicializar Swiper
+    const swiper = new Swiper('.testimonials-slider', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: false,
+        },
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+        },
+    });
+
+    // Animaciones con GSAP
+    const cards = document.querySelectorAll('.testimonial-card');
+    
+    cards.forEach((card, index) => {
+        // Animación al hacer hover
+        card.addEventListener('mouseenter', () => {
+            gsap.to(card.querySelector('.client-image-wrapper'), {
+                scale: 1.1,
+                duration: 0.3,
+                ease: 'power2.out'
+            });
+            
+            gsap.to(card.querySelector('.stars'), {
+                scale: 1.2,
+                duration: 0.3,
+                ease: 'back.out'
+            });
+        });
+
+        card.addEventListener('mouseleave', () => {
+            gsap.to(card.querySelector('.client-image-wrapper'), {
+                scale: 1,
+                duration: 0.3,
+                ease: 'power2.in'
+            });
+            
+            gsap.to(card.querySelector('.stars'), {
+                scale: 1,
+                duration: 0.3,
+                ease: 'back.in'
+            });
+        });
+
+        // Animación inicial de entrada
+        gsap.from(card, {
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            delay: index * 0.2,
+            ease: 'power3.out'
+        });
+    });
+
+    // Animación de las estrellas
+    const starsContainers = document.querySelectorAll('.stars');
+    starsContainers.forEach(container => {
+        const stars = container.querySelectorAll('.star');
+        stars.forEach((star, index) => {
+            gsap.to(star, {
+                scale: 1.2,
+                duration: 0.5,
+                repeat: -1,
+                yoyo: true,
+                delay: index * 0.1,
+                ease: 'power1.inOut'
+            });
+        });
+    });
+
+    // Efecto parallax suave en las tarjetas
+    document.addEventListener('mousemove', (e) => {
+          const cards = document.querySelectorAll('.testimonial-card');
+          const mouseX = e.clientX;
+          const mouseY = e.clientY;
+
+          cards.forEach(card => {
+              const rect = card.getBoundingClientRect();
+              const cardX = rect.left + rect.width / 2;
+              const cardY = rect.top + rect.height / 2;
+
+              const angleX = (mouseY - cardY) / 30;
+              const angleY = (mouseX - cardX) / -30;
+
+              gsap.to(card, {
+                  rotationX: angleX,
+                  rotationY: angleY,
+                  duration: 0.5,
+                  ease: 'power2.out'
+              });
+          });
+      });
+  });
+  </script>
+
 </body>
 </html>
